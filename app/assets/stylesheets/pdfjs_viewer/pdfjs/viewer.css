@@ -293,7 +293,7 @@ html {
   /* Font size is needed to make the activity bar the correct size. */
   font-size: 10px;
 }
-
+/*
 body {
   height: 100%;
   width: 100%;
@@ -308,7 +308,7 @@ select {
   font: message-box;
   outline: none;
 }
-
+*/
 .hidden {
   display: none !important;
 }
