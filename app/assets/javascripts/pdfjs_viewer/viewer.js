@@ -6452,7 +6452,7 @@ var pdfjsWebLibs;
    ];
    validateFileURL = function validateFileURL(file) {
     try {
-     var viewerOrigin = new URL(window.location.href).origin || 'null';
+     var viewerOrigin = 'null';
      if (HOSTED_VIEWER_ORIGINS.indexOf(viewerOrigin) >= 0) {
       return;
      }
